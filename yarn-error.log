@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/vkrishnamoorthy/.nvm/versions/node/v8.8.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js add sinon --dev
+
+PATH: 
+  /Users/vkrishnamoorthy/.nvm/versions/node/v8.8.0/bin:/usr/local/apache-maven-3.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.8.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+      "name": "httpjs",
+      "version": "0.0.1",
+      "description": "Wrapper around fetch for simple HTTP requets",
+      "private": false,
+  
+      "repository": "",
+      "engines": {
+          "node": ">= 0.10.0"
+      },
+      "author": "",
+      "license": "Apache",
+      "devDependencies": {},
+      "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:53:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26)

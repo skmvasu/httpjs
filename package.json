@@ -1,0 +1,19 @@
+{
+    "name": "httpjs",
+    "version": "0.0.1",
+    "description": "Wrapper around fetch for simple HTTP requets",
+    "private": false,
+    "repository": "",
+    "scripts": { "test": "jasmine" },
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "author": "",
+    "license": "Apache",
+    "devDependencies": {
+        "jasmine": "^2.8.0",
+        "sinon": "^4.1.3",
+        "underscore": "^1.8.3"
+    },
+    "dependencies": {}
+}
